@@ -135,6 +135,14 @@ export const Form = () => {
 
       <pre className={styles.code}>
         <p className={styles.valueStyle}>
+          <span className={styles.nameStyle}>width:</span>
+          {state.size}px;
+        </p>
+        <p className={styles.valueStyle}>
+          <span className={styles.nameStyle}>height:</span>
+          {state.size}px;
+        </p>
+        <p className={styles.valueStyle}>
           <span className={styles.nameStyle}>border-radius:</span>
           {state.radius}px;
         </p>
@@ -157,7 +165,6 @@ export const Form = () => {
             {state.distance}px {state.blur}px {state.colors.second};
           </span>
         </p>
-        {state.intensity}
       </pre>
     </div>
   );
