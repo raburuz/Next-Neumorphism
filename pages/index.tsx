@@ -1,9 +1,9 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import { Form } from '../components/form/Form';
 import styles from '../styles/Home.module.css';
 import { Neumorphism } from '../components/neumorphism/Neumorphism';
 import { FormProvider } from '../context/FormProvider';
+import { Form } from '../components/form/Form';
 
 const Home: NextPage = () => {
   return (
